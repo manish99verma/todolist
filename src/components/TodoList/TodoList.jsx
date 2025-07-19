@@ -26,6 +26,7 @@ class TodoList extends Component {
               this.setState({ ...this.state, newTask: e.target.value })
             }
             type="text"
+            placeholder="Enter new task..."
             value={this.state.newTask}
           />
           <button onClick={this.addToList}>Add</button>
